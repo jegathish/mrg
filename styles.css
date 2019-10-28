@@ -17,9 +17,10 @@ body {
   font-size: 150px;
   position: absolute;
   text-align: center;
-  top: 5%;
+  top: 3%;
+  color: white;
   left: 2%;
-  padding: 8% 10% 5% 10%;
+  padding: 5% 10% 5% 10%;
   transform: translate(-50%, -50%);
   animation: text-animation 3s ease-in-out forwards;
   font-family: 'Dancing Script', cursive;
@@ -64,7 +65,7 @@ body {
 
 .coming-soon .ctdown {
   font-weight: 700;
-  font-size: 42px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   min-height: 160px;
@@ -75,10 +76,10 @@ body {
 .time-box {
   display: flex;
   flex-direction: column;
-  color: #ffd905;
+  color: #bfbfbf;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0, 0.7);
+
   width: 200px;
   height: 200px;
 }
@@ -139,21 +140,22 @@ body {
 
 
 .intro {
-  background-image: url("introbg.jpg");
+  background-image: url("vinayakn.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #D4AF37;
 
 }
 
 .intro h1 {
-  font-size: 150px;
+  font-size: 180px;
     text-align: center;
     margin: auto;
-    padding-top: 20%;
+    padding-top: 3%;
     font-family: 'Dancing Script', cursive;
-    line-height: 1.5;
-    letter-spacing: 20px;
+    line-height: 1.2;
+
 
 
 }
@@ -165,7 +167,9 @@ bottom: 10%;
 }
 
 .main {
-  background-color: #061226;
+  background-image: url("msgn.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
   margin: auto;
@@ -179,19 +183,17 @@ bottom: 10%;
 .main .top{
   font-family: 'Montserrat', sans-serif;
   font-family: 'Dancing Script', cursive;
-
   text-transform: uppercase;
   font-size: 50px;
-  padding: 10% 0 0 0;
+
 }
 .main .bottom{
   font-family: 'Roboto Slab', serif;
-  font-family: 'Dancing Script', cursive;
+  color: #ffffffd1;
+  font-size: 90px;
 
-
-  font-size: 120px;
-  padding: 0 5%;
-
+  position: absolute;
+  bottom: 10;
 }
 
 
@@ -202,15 +204,54 @@ bottom: 10%;
   padding: 10%;
   line-height: 1.3;
   font-family: 'Oswald', sans-serif;
+  background-image: url("venue.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
+.venue {
+  position: absolute;
+  bottom: 5%;
+  font-family: 'Dancing Script', cursive;
 
+}
 .end h1 {
   font-size: 100px;
   color: white;
-  background-color: black;
+
   text-align: left;
   padding-left: 15px;
 }
+
+.moogurtham {
+  background-image: url("mugurtham.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 3%;
+  padding: 0;
+  color: white;
+}
+.moogurtham h1 {
+  font-size: 110px;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  padding-left: 3%;
+}
+div.timing, .con {
+  background-color: #44232385;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  height: 100vh;
+}
+
+.moogurtham p {
+  font-size: 70px;
+  text-align: center;
+  padding-left: 10%;
+  color: white;
+}
+
 .btn {
   font-size: : 100px;
 }
