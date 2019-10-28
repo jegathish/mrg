@@ -37,3 +37,15 @@ var blink = document.getElementById('blink');
       setInterval(function() {
          blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
       }, 500);
+
+
+
+$('.button').on('click',function(){
+  console.log("click");
+  $('.main').removeClass('active');
+  $('.moogurtham').removeClass('active')
+  $('.end').removeClass('active')
+  $('.intro').addClass('active');
+  var elmnt = document.getElementById("content");
+  elmnt.scrollIntoView();
+  });
